@@ -8,7 +8,7 @@ const AddUser = (props) => {
   const [enteredUsername, setEnteredUsername] =
     useState('');
   const [enteredAge, setEnteredAge] = useState('');
-  cosnt[(error, setError)] = useState();
+  const[error, setError] = useState();
 
   const addUserHandler = (event) => {
     event.preventDefault();
